@@ -1,10 +1,10 @@
 import React from "react";
 
-const Footer = () => {
+const Bottom = () => {
     return (
-      <div className="">
+      <div className="absolute top-[416%] ">
       <div className=" absolute bottom-[0.47px] left-[0px] flex flex-col items-start justify-start text-left text-sm text-fs-search-button-text font-open-sans">
-        <div className="relative [background:linear-gradient(95.74deg,_#0076ce,_#9400d3)] w-[1536px] h-[341px]">
+        <div className="relative [background:linear-gradient(95.74deg,_#0076ce,_#9400d3)] w-[1510px] h-[341px]">
           <div className="absolute top-[92px] left-[128px] leading-[22px] inline-block w-[272px]">
             India's first platform dedicated to simplifying partner search
           </div>
@@ -185,5 +185,5 @@ const Footer = () => {
     );
   };
   
-  export default Footer;
+  export default Bottom;
   

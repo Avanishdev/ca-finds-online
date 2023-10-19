@@ -3,7 +3,8 @@ import Navbar from "../components/Navbar";
 import Card from "../components/Card";
 import About from "../components/About"
 import RecommendedForYouContainer from "../components/RecommendedForYouContainer";
-import Footer from "../components/Footer";
+import Bottom from "../components/Bottom";
+
 
 
 const DetailsPage = () => {
@@ -14,8 +15,8 @@ const DetailsPage = () => {
                 <Card className=''/>
                 <About className=''/>
             </div>
-            {/* <RecommendedForYouContainer/> */}
-            {/* <Footer/> */}
+            <RecommendedForYouContainer/>
+            <Bottom/>
         </>
   );
 };

@@ -5,7 +5,7 @@ const data = require('./CA.json');
 const app = express(); 
 
 // Assign route 
-app.use('/', (req, res, next) => { 
+app.use('/details/', (req, res, next) => { 
 const filters = req.query; 
 const filteredUsers = data.filter(user => { 
 	let isValid = true; 

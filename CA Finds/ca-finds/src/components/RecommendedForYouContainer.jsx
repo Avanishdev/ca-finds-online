@@ -2,7 +2,7 @@
 
 const RecommendedForYouContainer = () => {
   return (
-    <div className="absolute h-[21.97%] w-[83.27%] top-[57.31%] right-[8.33%] bottom-[20.72%] left-[8.4%] text-left text-16xl text-fs-search-text font-poppins">
+    <div className="absolute h-[21.97%] w-[83.27%] top-[200%] right-[8.33%] bottom-[20.72%] left-[8.4%] text-left text-16xl text-fs-search-text font-poppins">
       <b className="absolute w-[57.31%] top-[0%] left-[0%] inline-block">
         Recommended for you
       </b>

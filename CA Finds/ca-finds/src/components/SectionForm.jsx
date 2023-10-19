@@ -232,7 +232,7 @@ const SectionForm = () => {
         <b className="absolute top-[228px] left-[1008px] text-5xl text-fs-search-button-text">
           3rd
         </b>
-        <div className="absolute top-[845px] left-[calc(50%_-_637px)] text-mid leading-[26px] inline-block w-[1280px]">
+        <div className="absolute top-[900px] left-[calc(50%_-_637px)] text-mid leading-[26px] inline-block w-[1280px]">
           <span>{`* For forms AOC-4 and MGT-7, you will be charged a penalty of ₹200 `}</span>
           <b>every day</b>
           <span>
@@ -243,7 +243,7 @@ const SectionForm = () => {
         </div>
         <b className="absolute top-[0px] left-[calc(50%_-_332px)] text-46xl inline-block text-center w-[670px]">
           <span>{`Want to  `}</span>
-          <span className="[background:linear-gradient(90.05deg,_#0076ce,_#9400d3)] [background-clip:text] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
+          <span className="[background-image:linear-gradient(90.05deg,_#0076ce,_#9400d3)] [background-clip:text] [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
             Join
           </span>
           <span> Us?</span>
